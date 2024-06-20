@@ -1,0 +1,3 @@
+mysql -u root -p
+entering password of root user
+// this is used for starting the mysql
