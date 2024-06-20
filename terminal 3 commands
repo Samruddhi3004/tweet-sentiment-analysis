@@ -1,0 +1,3 @@
+cd frontend
+code App.js
+npm start
