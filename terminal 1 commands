@@ -1,4 +1,4 @@
 run the below commands in terminal
-mysql -u root -p
-entering password of root user
+1.mysql -u root -p
+2.entering password of root user
 // this is used for starting the mysql
