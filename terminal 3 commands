@@ -1,3 +1,4 @@
-cd frontend
-code App.js
-npm start
+run the below commands in terminal
+1.cd frontend
+2.code App.js
+3.npm start
