@@ -1,0 +1,53 @@
+/* src/App.css */
+
+body {
+  background: linear-gradient(135deg, #FFCC33, #FF6666);
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8); /* Add a slight white overlay to improve readability */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+.hidden {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.card {
+  border-radius: 10px;
+}
+
+button {
+  font-size: 1.2rem;
+}
+
+textarea {
+  font-size: 1.1rem;
+}
